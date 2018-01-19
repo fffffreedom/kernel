@@ -41,4 +41,5 @@ vim /etc/grub.conf
   - 下载源码
     www.kernel.org  
     可基于当前的内核配置，来编译新版本的内核源码，编译过程就先不细看了。参见：  
-    https://wiki.centos.org/zh/HowTos/Custom_Kernel
+    https://wiki.centos.org/zh/HowTos/Custom_Kernel  
+    http://nanxiao.me/linux-kernel-note-9-understand-make-oldconfig/  
