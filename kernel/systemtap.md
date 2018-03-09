@@ -1,6 +1,6 @@
 # systemtap
 
-## isntall
+## install
 
 - yum安装所需的工具包
 
