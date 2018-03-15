@@ -2,13 +2,25 @@
 
 ## install
 
-- yum安装所需的工具包
+### yum安装所需的工具包
 
 ```
 yum install systemtap systemtap-runtime gcc elfutils kernel-devel
 ```
 
-- 手动安装内核信息包
+### 自动安装内核信息包
+
+> https://spacewander.gitbooks.io/systemtapbeginnersguide_zh/content/2_1_InstallationAndSetup.html  
+
+在较新的系统上，仅需以root权限运行下面的命令：
+
+```
+stap-prep
+```
+
+如果不起作用，就按下面手动安装吧。  
+
+### 手动安装内核信息包
 
 ```
 kernel-debuginfo
